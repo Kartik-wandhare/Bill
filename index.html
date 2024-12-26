@@ -9,28 +9,51 @@
      background-color: #e1eaea;
      border: 1px solid black;
      width: 700px;
-     height: 720px;
+     height: 730px;
      margin: 0px auto;
+     position: relative;
     }
     .img{
-        height: 100px;
-        margin: 10px;
-        display: block;
-        margin: 10px auto;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        height: 97px;
+    }
+    .owner{
+        margin-top: 42px;
+    }
+    .address{
+        
+        margin-top: 7px;
+        text-align: center;
     }
     .heading{
-       text-align: center;
+       
+        text-align: right;
+       margin: 5px;
     }
     .line{
         border: solid 2px black;
+    }
+    .detail{
+        margin: 15px;
+        font-size:20px;
     }
     </style>
 </head>
 <body>
     <div class="body">
+        <p class="address"> Address: Naginabag veternary hospital,<br>
+            near chor khidki chandrapur, 442401<br>
+        Mob no: 9890600183</p>
+            <h2 class="owner"><b>Kishor carpenter</b></h2>
       <img src="./img/logo/logo.jpeg" class="img">
       <h1 class="heading"> Invoice</h1>
       <hr class="line">
+      <div>
+      <span class="">Customer Name:</span>
+      <span>Kartik wandhare</span>
+    </div>
     </div>
 </body>
 </html>
