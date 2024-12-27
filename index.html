@@ -36,9 +36,57 @@
         border: solid 2px black;
     }
     .detail{
-        margin: 15px;
-        font-size:20px;
+      display: flex;
+      justify-content:space-around;
+      margin-top: 20px;
     }
+    .question{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .answer{
+        border-bottom: dashed 1px black;
+       font-size: 20px;
+      width: 50%;
+    }
+    .invoice{
+       text-align: left;
+        font-size: 20px;
+    }
+    .number{
+        border-bottom: dashed 1px black;
+       font-size: 20px;
+      width: 30%;
+    }
+    .date{
+       text-align: left;
+        font-size: 20px;
+    }
+    .date1{
+        border-bottom: dashed 1px black;
+       font-size: 20px;
+      width: 20%;
+    }
+    .mobile{
+       text-align: left;
+        font-size: 20px;
+    }
+    .mobile1{
+        border-bottom: dashed 1px black;
+       font-size: 20px;
+      width: 20%;
+    }
+    .QTY{
+       text-align: left;
+        font-size: 20px;
+    }
+    .QTY1{
+        border-bottom: dashed 1px black;
+       font-size: 20px;
+      width: 20%;
+    }
+      
+
     </style>
 </head>
 <body>
@@ -50,10 +98,29 @@
       <img src="./img/logo/logo.jpeg" class="img">
       <h1 class="heading"> Invoice</h1>
       <hr class="line">
-      <div>
-      <span class="">Customer Name:</span>
-      <span>Kartik wandhare</span>
+      <div class="detail">
+      <div class="question">Customer Name:</div>
+      <div class="answer">Kartik wandhare</div>
     </div>
+    <div class="detail">
+        <div class="question">Address:</div>
+        <div class="answer">jetpurget chandrapur</div>
+      </div>
+      <div class="detail">
+        <div class="question">Email:</div>
+        <div class="answer">Kartikwandhare@11</div>
+      </div>
+      <div class="detail">
+        <div class="invoice">Invoice No:</div>
+        <div class="number">0001</div>
+        <span class="date">Date:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="date1">31/12/2024</span></div>
+        <div class="detail">
+            <div class="invoice">Mobile No:</div>
+            <div class="number">9665095947</div>
+            <span class="QTY">QTY:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="QTY1">3</span></div>
+        
+        
+      </div>
     </div>
 </body>
 </html>
