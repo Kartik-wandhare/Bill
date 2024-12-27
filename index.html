@@ -9,7 +9,7 @@
      background-color: #e1eaea;
      border: 1px solid black;
      width: 700px;
-     height: 730px;
+     height: 980px;
      margin: 0px auto;
      position: relative;
     }
@@ -17,7 +17,7 @@
         position: absolute;
         left: 5px;
         top: 5px;
-        height: 97px;
+        height: 97px; 
     }
     .owner{
         margin-top: 42px;
@@ -85,8 +85,29 @@
        font-size: 20px;
       width: 20%;
     }
-      
-
+      .table{
+       margin: 10px;
+        font-size: 30px;
+        text-align: center;
+      }
+   .words{
+    text-align: start;
+   }
+   .greeting{
+    position: relative;
+    padding: 15px;
+   }
+   .Signature{
+    padding: 25px;
+    text-align: right;
+   }
+   .stamp{
+    position: absolute;
+    bottom: 45px;
+    right: 60px;
+    height: 70px;
+   transform: rotate(10deg);
+   }
     </style>
 </head>
 <body>
@@ -117,7 +138,63 @@
         <div class="detail">
             <div class="invoice">Mobile No:</div>
             <div class="number">9665095947</div>
-            <span class="QTY">QTY:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="QTY1">3</span></div>
+            <span class="QTY">Qty</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="QTY1">3</span></div>
+            <br> 
+            <div class="table">
+       <table border="1">
+        <thead>
+          <tr>
+            <th class="table">Sr.no</th>
+            <th colspan="2" class="table">Item</th>
+            <th class="table">Qty</th>
+            <th class="table">price</th>
+            <th class="table">Amount</th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td rowspan="7">wooden doors</td>
+              <td rowspan="7">windows</td>
+              <td rowspan="7">3</td>
+              <td rowspan="5">23000 for single item</td>
+              <td rowspan="5">100000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+            </tr>
+            <tr>
+            <td>6</td>
+            <td>Sub total</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td> Total</td>
+            <td></td>
+          </tr>
+            <tr>
+              <td colspan="6" class="words">In words:</td>
+            </tr>
+            <tr >
+              <td colspan="6" class="greeting">Thank you and Visit again </td>
+            </tr>
+            
+            <tr >
+              <td colspan="6"class="Signature"> <img src="./img/approved.png" class="stamp">Signature </td> 
+            </tr>
+          </tbody>
+       </table>
+      </div>  
         
         
       </div>
