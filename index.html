@@ -112,16 +112,22 @@
     height: 70px;
    transform: rotate(10deg);
    }
-   @media (max-width:700px){
+   @media (max-width:720px){
     .body{
       height: auto;
       width: auto;
+      font-size: 15px;
 
   }
   .body:hover{
     box-shadow: -3px -3px 10px 5px yellow;
     background-color:green;
   }
+ .price{
+  font-size: 25px;
+ } 
+ 
+ 
 }
   
     </style>
@@ -136,20 +142,20 @@
       <h1 class="heading"> Invoice</h1>
       <hr class="line">
       <div class="detail">
-      <div class="question">Customer Name:</div>
-      <div class="answer">Kartik wandhare</div>
+      <div class="question" >Customer Name:</div>
+      <div class="answer" >Kartik wandhare</div>
     </div>
     <div class="detail">
-        <div class="question">Address:</div>
-        <div class="answer">jetpurget chandrapur</div>
+        <div class="question" >Address:</div>
+        <div class="answer" >jetpurget chandrapur</div>
       </div>
       <div class="detail">
-        <div class="question">Email:</div>
-        <div class="answer">Kartikwandhare@11</div>
+        <div class="question" >Email:</div>
+        <div class="answer" >Kartikwandhare@11</div>
       </div>
       <div class="detail">
-        <div class="invoice">Invoice No:</div>
-        <div class="number">0001</div>
+        <div class="invoice" >Invoice No:</div>
+        <div class="number" >0001</div>
         <span class="date">Date:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="date1">31/12/2024</span></div>
         <div class="detail">
             <div class="invoice">Mobile No:</div>
@@ -173,8 +179,8 @@
               <td rowspan="7">wooden doors</td>
               <td rowspan="7">windows</td>
               <td rowspan="7">3</td>
-              <td rowspan="5">23000 for single item</td>
-              <td rowspan="5">100000</td>
+              <td rowspan="5" class="price">23000 for single item</td>
+              <td rowspan="5" class="price" >100000</td>
             </tr>
             <tr>
               <td>2</td>
@@ -199,14 +205,14 @@
             <td></td>
           </tr>
             <tr>
-              <td colspan="6" class="words">In words:</td>
+              <td colspan="6" class="words"class="font-size">In words:</td>
             </tr>
             <tr >
-              <td colspan="6" class="greeting">Thank you and Visit again </td>
+              <td colspan="6" class="greeting"class="font-size">Thank you and Visit again </td>
             </tr>
             
             <tr >
-              <td colspan="6"class="Signature"> <img src="./img/approved.png" class="stamp">Signature </td> 
+              <td colspan="6"class="Signature"class="font-size"> <img src="./img/approved.png" class="stamp">Signature </td> 
             </tr>
           </tbody>
        </table>
